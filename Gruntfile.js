@@ -87,20 +87,20 @@ module.exports = function (grunt) {
                     'src/services/flash-service.js',
                     'src/directives/flash-alert-directive.js'
                 ],
-                dest: 'dist/<%= pkg.name %>.js'
+                dest: 'dist/angular-flash-center.js'
             }
         },
         uglify: {
             options: {
                 banner: ['/**! ',
-                    ' * @license <%= pkg.name %> v<%= pkg.version %>',
+                    ' * @license angular-flash-center v<%= pkg.version %>',
                     ' * Copyright (c) 2013 <%= pkg.author.name %>. <%= pkg.homepage %>',
                     ' * License: MIT',
                     ' */\n'].join('\n')
             },
             main: {
                 files: {
-                    'dist/<%= pkg.name %>.min.js': [
+                    'dist/angular-flash-center.min.js': [
                         '<%= concat.main.dest %>'
                     ]
                 }

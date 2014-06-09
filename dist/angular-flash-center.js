@@ -1,5 +1,5 @@
 /**! 
- * @license angular-flash-center v0.1.16
+ * @license ng-flash-center v0.1.16
  * Copyright (c) 2013 Andreo Vieira. https://github.com/andreoav/angular-flash
  * License: MIT
  */
