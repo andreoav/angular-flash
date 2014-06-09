@@ -1,6 +1,6 @@
 /**! 
- * @license angular-flash v0.1.13
- * Copyright (c) 2013 William L. Bunselmeyer. https://github.com/wmluke/angular-flash
+ * @license angular-flash-center v0.1.16
+ * Copyright (c) 2013 Andreo Vieira. https://github.com/andreoav/angular-flash
  * License: MIT
  */
 /* global angular */
@@ -191,7 +191,7 @@
                 });
 
                 function removeAlertClasses() {
-                    var classnames = [].concat(flash.classnames.error, flash.classnames.warn, flash.classnames.info, flash.classnames.success);
+                    var classnames = [].concat('alert', flash.classnames.error, flash.classnames.warn, flash.classnames.info, flash.classnames.success);
                     angular.forEach(classnames, function (clazz) {
                         element.removeClass(clazz);
                     });

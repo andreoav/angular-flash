@@ -1,19 +1,19 @@
 {
-  "name": "angular-flash",
-  "description": "Flash messages for Angular JS",
+  "name": "angular-flash-center",
+  "description": "Flash messages center for Angular JS",
   "private": false,
-  "version": "0.1.13",
-  "homepage": "https://github.com/wmluke/angular-flash",
+  "version": "0.1.16",
+  "homepage": "https://github.com/andreoav/angular-flash",
   "author": {
-    "name": "William L. Bunselmeyer",
-    "email": "wmlukeb@gmail.com"
+    "name": "Andreo Vieira",
+    "email": "andreoav@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wmluke/angular-flash.git"
+    "url": "git://github.com/andreoav/angular-flash.git"
   },
   "bugs": {
-    "url": "https://github.com/wmluke/angular-flash/issues"
+    "url": "https://github.com/andreoav/angular-flash/issues"
   },
   "engines": {
     "node": ">= 0.8.0",

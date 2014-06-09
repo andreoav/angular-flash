@@ -31,7 +31,7 @@
                 });
 
                 function removeAlertClasses() {
-                    var classnames = [].concat(flash.classnames.error, flash.classnames.warn, flash.classnames.info, flash.classnames.success);
+                    var classnames = [].concat('alert', flash.classnames.error, flash.classnames.warn, flash.classnames.info, flash.classnames.success);
                     angular.forEach(classnames, function (clazz) {
                         element.removeClass(clazz);
                     });
